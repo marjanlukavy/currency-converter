@@ -2,7 +2,7 @@ import React from "react";
 import SwapButton from "../common/forms/buttons/swap-button";
 import CurrencyInput from "./currency-input";
 import { CURRENCIES, INPUT_NAMES } from "../../constants";
-import useCurrencyConverter from "../../hooks/useCurrencyConverter.JS";
+import useCurrencyConverter from "../../hooks/useCurrencyConverter";
 
 const CurrencyConverter = () => {
   const {
